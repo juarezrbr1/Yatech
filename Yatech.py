@@ -4,9 +4,11 @@ from PIL import Image
 
 imagem_teste = Image.open(r'C:\Users\juare\Documents\Python Scripts\banco_de_imagens\pag3.png')
 
+
 def extrair_texto_lista():
     # Extrai texto da imagem
     texto = tess.image_to_string(imagem_teste, lang="por")
     print(texto)
+
 
 extrair_texto_lista()
