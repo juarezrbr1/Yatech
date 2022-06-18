@@ -2,7 +2,7 @@ import pytesseract as tess
 tess.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 from PIL import Image
 
-imagem_teste = Image.open('pag3.png')
+imagem_teste = Image.open('pag2.png')
 
 
 def extrair_texto_lista():
